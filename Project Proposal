@@ -1,0 +1,17 @@
+### Background Information and Question
+
+Heart disease is a term relating to several conditions affecting the heart, such as coronary artery disease, arrhythmias, congenital heart defects and heart valve disease. These can result in heart attacks, anginas or strokes. Some common symptoms of heart disease are shortness of breath, bradycardia, tachycardia, dizziness and fatigue. 
+
+Many of these problems are related to a process called atherosclerosis, the buildup of fatty deposits in the walls of arteries. Atherosclerotic fatty deposits (plaque) narrows the diameter of the artery which results in reduced blood flow. 
+
+The predictive question we aim to answer through this project is: If a patient of age greater than sixty years is admitted to the hospital with a resting blood pressure greater than the average (___), what will the patient’s heart disease diagnosis be?
+
+### Dataset used
+
+The dataset that will be used is the Pulsar Star dataset, which can be found here. This dataset describes a sample of pulsar candidates collected during the High Time Resolution Universe Survey. 
+
+Each row of this dataset is a potential signal detection that may describe a real pulsar. The first 8 variables are the mean, standard deviation, excess kurtosis, and skewness, of the integrated pulse profile and of the DM-SNR curve.
+
+The integrated pulse profile is the sum of many individual pulsar star pulses that can be thought of as a pulsar’s fingerprint and the DM-SNR (Dispersion Measure Signal-to-Noise Ratio) curve takes into account the background noise that may interfere with the actual desired signal 
+
+The last variable is the class label. 1 represents a real pulsar, and 0 otherwise.
